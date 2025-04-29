@@ -1,16 +1,24 @@
-# block_task0
+# 🧮 Flutter BLoC Counter App
 
-A new Flutter project.
+A simple yet powerful Flutter application demonstrating state management using the **BLoC (Business Logic Component)** pattern.  
+This app features a counter with increment/decrement functionality, theme toggling (light/dark), and user feedback via SnackBars.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔁 **Counter Functionality**  
+  - Increment & decrement the counter  
+  - SnackBar shows when counter reaches `+10` or `-10`  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🌗 **Theme Toggle**  
+  - Switch between Light and Dark themes using `ThemeBloc`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 📦 **BLoC Pattern (Full)**  
+  - `CounterBloc` uses events and states to manage the counter  
+  - `ThemeBloc` controls app-wide theming
+
+---
+
+## 🧱 Architecture
+
