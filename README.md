@@ -20,5 +20,4 @@ This app features a counter with increment/decrement functionality, theme toggli
 
 ---
 
-## 🧱 Architecture
 
